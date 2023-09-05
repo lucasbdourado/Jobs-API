@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc72e480-9e23-44d4-9c7e-b93593a1b5b7" name="Changes" comment="" />
+    <list default="true" id="dc72e480-9e23-44d4-9c7e-b93593a1b5b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/IJobDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/JobDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/domain/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/resource/JobResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/IJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/JobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +26,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -30,22 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lucasbdourado/Projetos/JobsAPI/target&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/lucasbdourado/Projetos/JobsAPI/Dockerfile",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Space Code Reviews" />
@@ -60,14 +73,14 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Profiler" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.33014706" />
+      <window_info anchor="bottom" id="Build" weight="0.33014706" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="File Transfer" />
       <window_info anchor="bottom" id="Run" weight="0.33014706" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems View" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Services" order="3" weight="0.33014706" />
+      <window_info active="true" anchor="bottom" id="Services" order="3" visible="true" weight="0.33014706" />
       <window_info anchor="right" id="Endpoints" />
       <window_info anchor="right" id="Meet New UI" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
@@ -76,7 +89,18 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.25" />
     </layout>
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.lucasbdourado.jobsapi.dao" />
+      <recent name="br.com.lucasbdourado.jobsapi.service" />
+      <recent name="br.com.lucasbdourado.jobsapi.resource" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.lucasbdourado.jobsapi.domain" />
+      <recent name="br.com.lucasbdourado.jobsapi.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Apache Tomcat">
     <configuration name="Apache Tomcat" type="docker-deploy" factoryName="docker-image" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -106,6 +130,32 @@
         </option>
       </method>
     </configuration>
+    <configuration name="DockerFile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="tomcat:9.0" />
+          <option name="containerName" value="tomcat_server_erq" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostPort" value="8000" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JobsAPI:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Apache Tomcat" />
+      <item itemvalue="Docker.DockerFile" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,7 +170,8 @@
       <workItem from="1693790502442" duration="72000" />
       <workItem from="1693790625852" duration="2456000" />
       <workItem from="1693793993932" duration="923000" />
-      <workItem from="1693808445989" duration="3565000" />
+      <workItem from="1693808445989" duration="4173000" />
+      <workItem from="1693865932486" duration="3317000" />
     </task>
     <servers />
   </component>
