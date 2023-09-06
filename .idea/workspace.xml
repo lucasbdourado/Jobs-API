@@ -10,13 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc72e480-9e23-44d4-9c7e-b93593a1b5b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/IJobDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/JobDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/domain/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/resource/JobResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/IJobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/JobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/jdbc/ConnectionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/IJobDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/IJobDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/JobDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/JobDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/resource/JobResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/resource/JobResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/IJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/IJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/JobService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -67,7 +69,7 @@
       <window_info id="Commit_Guest" />
       <window_info id="Pull Requests" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32969925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32101026" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -80,7 +82,7 @@
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems View" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info active="true" anchor="bottom" id="Services" order="3" visible="true" weight="0.33014706" />
+      <window_info active="true" anchor="bottom" id="Services" order="3" visible="true" weight="0.3083791" />
       <window_info anchor="right" id="Endpoints" />
       <window_info anchor="right" id="Meet New UI" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
@@ -143,6 +145,7 @@
               </DockerPortBindingImpl>
             </list>
           </option>
+          <option name="commandLineOptions" value="--network jobsapi" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
@@ -172,6 +175,10 @@
       <workItem from="1693793993932" duration="923000" />
       <workItem from="1693808445989" duration="4173000" />
       <workItem from="1693865932486" duration="3317000" />
+      <workItem from="1693878241926" duration="4123000" />
+      <workItem from="1693965130773" duration="2920000" />
+      <workItem from="1694013740368" duration="3037000" />
+      <workItem from="1694041213935" duration="3450000" />
     </task>
     <servers />
   </component>
