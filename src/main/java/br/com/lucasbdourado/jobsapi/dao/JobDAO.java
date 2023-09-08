@@ -69,11 +69,12 @@ public class JobDAO implements IJobDAO{
         try {
             connection = ConnectionFactory.getConnection();
 
-            String query = "INSERT INTO jobs (name) VALUES (?)";
+            String query = "INSERT INTO jobs (name, description) VALUES (?, ?)";
 
             preparedStatement = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
 
             preparedStatement.setString(1, job.getName());
+            preparedStatement.setString(2, job.getDescription());
 
             int rowsAffected  = preparedStatement.executeUpdate();
 
@@ -167,12 +168,13 @@ public class JobDAO implements IJobDAO{
         try {
             connection = ConnectionFactory.getConnection();
 
-            String query = "UPDATE jobs SET name = ? WHERE id = ?";
+            String query = "UPDATE jobs SET name = ?, description = ? WHERE id = ?";
 
             preparedStatement = connection.prepareStatement(query);
 
             preparedStatement.setString(1, job.getName());
-            preparedStatement.setLong(2, job.getId());
+            preparedStatement.setString(2, job.getDescription());
+            preparedStatement.setLong(3, job.getId());
 
             int rowsAffected  = preparedStatement.executeUpdate();
 

@@ -6,11 +6,14 @@ public class Job {
 
     private String name;
 
+    private String description;
+
     public Job(){}
 
-    public Job(Long id, String name){
+    public Job(Long id, String name, String description){
         this.id = id;
         this.name = name;
+        this.description = description;
     }
 
     public String getName() {
@@ -27,5 +30,13 @@ public class Job {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

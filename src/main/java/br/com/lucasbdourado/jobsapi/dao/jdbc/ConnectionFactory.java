@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
     private static Connection connection;
-    private static final String URL = "jdbc:mysql://ipcontainer:3306/jobs";
+    private static final String URL = "jdbc:mysql://mysql-jobsapi:3306/jobs";
     private static final String USER = "root";
     private static final String PASSWORD = "root";
 

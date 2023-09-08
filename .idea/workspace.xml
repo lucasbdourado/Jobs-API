@@ -10,14 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc72e480-9e23-44d4-9c7e-b93593a1b5b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/jdbc/ConnectionFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/IJobDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/IJobDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/JobDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/JobDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/resource/JobResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/resource/JobResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/IJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/IJobService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/service/JobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/jdbc/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/dao/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/domain/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucasbdourado/jobsapi/domain/Job.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -43,24 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "OverrideImplement.generate.javadoc": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/lucasbdourado/Projetos/JobsAPI/Dockerfile",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lucasbdourado/Projetos/JobsAPI/Dockerfile&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Space Code Reviews" />
@@ -102,36 +99,7 @@
       <recent name="br.com.lucasbdourado.jobsapi.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Apache Tomcat">
-    <configuration name="Apache Tomcat" type="docker-deploy" factoryName="docker-image" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="tomcat:9.0" />
-          <option name="containerName" value="Server_Tomcat" />
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="8080" />
-                <option name="hostPort" value="8000" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
-          <option name="volumeBindings">
-            <list>
-              <DockerVolumeBindingImpl>
-                <option name="containerPath" value="/usr/local/tomcat/webapps/" />
-                <option name="hostPath" value="$PROJECT_DIR$/target" />
-              </DockerVolumeBindingImpl>
-            </list>
-          </option>
-        </settings>
-      </deployment>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="JobsAPI:war" />
-        </option>
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="DockerFile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -155,10 +123,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Docker.Apache Tomcat" />
-      <item itemvalue="Docker.DockerFile" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -178,7 +142,9 @@
       <workItem from="1693878241926" duration="4123000" />
       <workItem from="1693965130773" duration="2920000" />
       <workItem from="1694013740368" duration="3037000" />
-      <workItem from="1694041213935" duration="3450000" />
+      <workItem from="1694041213935" duration="4051000" />
+      <workItem from="1694213816850" duration="55000" />
+      <workItem from="1694213977398" duration="1762000" />
     </task>
     <servers />
   </component>
